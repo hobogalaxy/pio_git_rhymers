@@ -10,8 +10,11 @@ int totalRejected = 0;
 
 	public void countIn(int in) {
 	if (!callCheck() && in > peekaboo())
-			totalRejected++;
-			else
-				super.countIn(in);
+		totalRejected++;
+	else
+		super.countIn(in);
 	}
+
+
+//	alt + ← oraz alt + →. Te kombinacje umożliwiają przełączanie się między otwartymi w IDE plikami.
 }
