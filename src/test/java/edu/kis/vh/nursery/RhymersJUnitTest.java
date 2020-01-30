@@ -3,6 +3,11 @@ package edu.kis.vh.nursery;
 import org.junit.Assert;
 import org.junit.Test;
 
+import edu.kis.vh.nursery.defaultCountingOutRhymer;
+import edu.kis.vh.nursery.HanoiRhymer;
+import edu.kis.vh.nursery.factory.DefaultRhymersFactory;
+import edu.kis.vh.nursery.factory.Rhymersfactory;
+
 public class RhymersJUnitTest {
 
 	@Test
